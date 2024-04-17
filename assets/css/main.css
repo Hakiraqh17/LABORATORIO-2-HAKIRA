@@ -18,9 +18,8 @@ tfoot, thead, tr, th, td, article, aside,
 canvas, details, embed, figure, figcaption,
 footer, header, hgroup, menu, nav, output, ruby,
 section, summary, time, mark, audio, video {
-	margin: 0;
+	margin: ;
 	padding: 0;
-	border: 0;
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;}
@@ -173,22 +172,24 @@ input, select, textarea {
 	}
 
 	p {
-		margin: 0 0 2rem 0;
+		margin: 2 0 2rem 0;
 	}
 
 	h2, h3, h4, h5, h6 {
-		color: #000000;
+		color: #bffafa;
 		font-weight: 600;
 		line-height: 1.5;
-		margin: 0 0 1rem 0;
+		margin: initial;
 		text-transform: uppercase;
-		letter-spacing: 0.2rem;
+		letter-spacing: 0.3 rem;
+
+		
 	}
 		h1, h4, h5, h6 {
-			color: #9e89da;
+			color: #bffafa;
 			font-weight: 600;
 			line-height: 1.5;
-			margin: 0 0 1rem 0;
+			margin: 0rem ;
 			text-transform: uppercase;
 	
 			letter-spacing: 0.2rem;
@@ -196,12 +197,13 @@ input, select, textarea {
 	
 	
 	 h3{
-		color: #3c2283;
+		color: #ffffff;
 				font-weight: 600;
 		line-height: 1.5;
-		margin: 0 0 1rem 0;
+		margin: 0  1rem 0;
 		text-transform: uppercase;
 		letter-spacing: 0.2rem;
+		
 }
 
 
@@ -229,11 +231,11 @@ input, select, textarea {
 	h2 {
 		font-size: 1.5rem;
 		line-height: 1.4;
-		letter-spacing: 0.5rem;
+		letter-spacing: 0 rem;
 	}
 
 	h3 {
-		font-size: 3rem;
+		font-size: 2rem;
 	}
 
 	h4 {
@@ -651,7 +653,7 @@ input, select, textarea {
 		}
 
 		.icon:before {
-			line-height: inherit;
+			line-height: normal;
 		}
 
 		.icon.solid:before {
@@ -674,7 +676,7 @@ input, select, textarea {
 		.image:before {
 			pointer-events: none;
 			background-image: url("../../images/overlay.png");
-			background-color: rgba(19, 21, 25, 0.5);
+			background-color: rgba(19, 21, 25, 0);
 			border-radius: 4px;
 			content: '';
 			display: block;
@@ -1166,7 +1168,7 @@ input, select, textarea {
 			-webkit-transition-delay: 0.75s;
 			-ms-transition-delay: 0.75s;
 			transition-delay: 0.75s;
-			background-image: linear-gradient(to top, rgba(0, 0, 0, 0.602), rgba(0, 0, 0, 0.675)), url("https://i.pinimg.com/564x/c3/b0/9c/c3b09cd42274f897c567081391f82804.jpg");
+			background-image: linear-gradient(to top, rgba(0, 0, 0, 0.602), rgba(0, 0, 0, 0.675)), url("https://i.pinimg.com/736x/c7/dd/24/c7dd24dea3213081ab7364899d5577d2.jpg");
 			background-size: auto,
 1550px 850px;
 			background-position: center,
@@ -1318,15 +1320,16 @@ input, select, textarea {
 			}
 			
 			#header .logo .icon:before {
-				font-size: 7rem;
+				font-size: 5rem;
 			}
 
 		#header .content {
 			border-style: solid;
-			border-color: #feb2cb;
+			border-color:#ffdede;
+			;
 			border-top-width: 25px;
 			border-bottom-width: 25px;
-			max-width: 1000%;
+			max-width: 90%;
 		}
 
 			#header .content .inner {
@@ -1565,12 +1568,16 @@ input, select, textarea {
 			position: relative;
 			width: 40rem;
 			max-width: 100%;
-			background-color: rgb(255 233 239 / 55%);
+			background-color: rgb(255 196 237 / 73%);
 
 			
 			border-radius: 4px;
 			opacity: 0;
 		}
+
+
+
+		
 
 			#main article.active {
 				-moz-transform: translateY(0);
@@ -1684,4 +1691,13 @@ input, select, textarea {
 		#hakira2{
 			font-family: "Oswald", sans-serif;
 			font-optical-sizing: auto;
+		}
+		.cuadro {
+			background-color: #cbb2e6;
+			border: 2px solid #f0ccff;
+			border-radius: 2000px;
+			padding: 9px;
+			text-align: center;
+			width: 308px; /* Ajusta el ancho según sea necesario */
+			margin: 0 auto; /* Centra horizontalmente */
 		}
