@@ -141,18 +141,20 @@ input, select, textarea {
 
 	body, input, select, textarea {
 		color: #ffffff;
-		font-family: "Source Sans Pro", sans-serif;
+		font-family: emoji;		
 		font-weight: 300;
 		font-size: 1rem;
 		line-height: 1.65;
+
 	}
+	
 
 	a {
 		-moz-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		-webkit-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		-ms-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
-		border-bottom: dotted 1px rgba(255, 255, 255, 0.5);
+		border-bottom: dotted 1px rgba(63, 210, 31, 0.5);
 		text-decoration: none;
 		color: inherit;
 	}
@@ -174,14 +176,34 @@ input, select, textarea {
 		margin: 0 0 2rem 0;
 	}
 
-	h1, h2, h3, h4, h5, h6 {
-		color: #ffffff;
+	h2, h3, h4, h5, h6 {
+		color: #000000;
 		font-weight: 600;
 		line-height: 1.5;
 		margin: 0 0 1rem 0;
 		text-transform: uppercase;
 		letter-spacing: 0.2rem;
 	}
+		h1, h4, h5, h6 {
+			color: #9e89da;
+			font-weight: 600;
+			line-height: 1.5;
+			margin: 0 0 1rem 0;
+			text-transform: uppercase;
+	
+			letter-spacing: 0.2rem;
+	} 
+	
+	
+	 h3{
+		color: #3c2283;
+				font-weight: 600;
+		line-height: 1.5;
+		margin: 0 0 1rem 0;
+		text-transform: uppercase;
+		letter-spacing: 0.2rem;
+}
+
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 			color: inherit;
@@ -231,6 +253,11 @@ input, select, textarea {
 		h1 {
 			font-size: 1.75rem;
 			line-height: 1.4;
+			font-family: "Dancing Script", cursive;
+			font-optical-sizing: auto;
+			font-weight: <weight>;
+			font-style: normal;
+
 		}
 
 		h2 {
@@ -1289,25 +1316,17 @@ input, select, textarea {
 			#header > :first-child:before {
 				display: none;
 			}
-
-		#header .logo {
-			width: 10.5rem;
-			height: 5.5rem;
-			line-height: 5.5rem;
-			border: solid 6px #ffffff;
-			border-radius: 100%;
-		}
-
+			
 			#header .logo .icon:before {
-				font-size: 2rem;
+				font-size: 7rem;
 			}
 
 		#header .content {
 			border-style: solid;
-			border-color: #ffffff;
-			border-top-width: 6px;
-			border-bottom-width: 6px;
-			max-width: 100%;
+			border-color: #feb2cb;
+			border-top-width: 25px;
+			border-bottom-width: 25px;
+			max-width: 1000%;
 		}
 
 			#header .content .inner {
@@ -1343,13 +1362,13 @@ input, select, textarea {
 			margin-bottom: 0;
 			list-style: none;
 			padding-left: 0;
-			border: solid 6px #ffffff;
+			border: solid 6px #feb2cb;
 			border-radius: 6px;
 		}
 
 			#header nav ul li {
 				padding-left: 0;
-				border-left: solid 6px #ffffff;
+				border-left: solid 6px #feb2cb;
 			}
 
 				#header nav ul li:first-child {
@@ -1369,11 +1388,11 @@ input, select, textarea {
 				}
 
 					#header nav ul li a:hover {
-						background-color: rgba(255, 255, 255, 0.075);
+						background-color: rgba(221, 88, 175, 0.838);
 					}
 
 					#header nav ul li a:active {
-						background-color: rgba(255, 255, 255, 0.175);
+						background-color: rgba(93, 228, 138, 0.845);
 					}
 
 		#header nav.use-middle:after {
@@ -1384,7 +1403,7 @@ input, select, textarea {
 			left: calc(50% - 6px);
 			width: 6px;
 			height: 100%;
-			background: #ffffff;
+			background: #feb2cb;
 		}
 
 		#header nav.use-middle ul li.is-middle {
@@ -1546,7 +1565,9 @@ input, select, textarea {
 			position: relative;
 			width: 40rem;
 			max-width: 100%;
-			background-color: rgba(229, 139, 214, 0.85);
+			background-color: rgb(255 233 239 / 55%);
+
+			
 			border-radius: 4px;
 			opacity: 0;
 		}
@@ -1658,4 +1679,9 @@ input, select, textarea {
 
 		body.is-preload #footer {
 			opacity: 0;
+		}
+
+		#hakira2{
+			font-family: "Oswald", sans-serif;
+			font-optical-sizing: auto;
 		}
