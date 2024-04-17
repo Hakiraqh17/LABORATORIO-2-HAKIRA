@@ -148,15 +148,7 @@
 		padding: 0.75rem 1rem;
 	}
 
-	input[type="checkbox"],
-	input[type="radio"], {
-		@include vendor('appearance', 'none');
-		display: block;
-		float: left;
-		margin-right: -2rem;
-		opacity: 0;
-		width: 1rem;
-		z-index: -1;
+
 
 		& + label {
 			@include icon(false, solid);
@@ -208,8 +200,7 @@
 				box-shadow: 0 0 0 _size(border-width) _palette(fg-bold);
 			}
 		}
-	}
-
+	
 	input[type="checkbox"] {
 		& + label {
 			&:before {
