@@ -138,7 +138,7 @@ input, select, textarea {
 
 		}
 
-	body, input, select, textarea {
+	body, input, select{
 		color: #ffffff;
 		font-family: emoji;		
 		font-weight: 300;
@@ -146,7 +146,16 @@ input, select, textarea {
 		line-height: 1.65;
 
 	}
-	
+
+
+textarea {
+	color: #ffffff;
+	font-family: emoji;		
+	font-weight: 300;
+	font-size: 1rem;
+	line-height: 1.65;
+
+}
 
 	a {
 		-moz-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
@@ -176,7 +185,7 @@ input, select, textarea {
 	}
 
 	h2, h3, h4, h5, h6 {
-		color: #bffafa;
+		color: #3430ab;
 		font-weight: 600;
 		line-height: 1.5;
 		margin: initial;
@@ -205,6 +214,15 @@ input, select, textarea {
 		letter-spacing: 0.2rem;
 		
 }
+h7{
+	color: #7b01a7;
+			font-weight: 600;
+	line-height: 1.5;
+	text-transform: uppercase;
+	letter-spacing: 0.2rem;
+	
+}
+
 
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -1244,7 +1262,7 @@ input, select, textarea {
 		@media screen and (max-width: 1680px) {
 
 			#wrapper {
-				padding: 3rem 2rem;
+				padding: 1rem 1rem;
 			}
 
 		}
@@ -1298,7 +1316,7 @@ input, select, textarea {
 			-ms-transition: opacity 0.325s ease-in-out;
 			transition: opacity 0.325s ease-in-out;
 			position: relative;
-			margin-top: 3.5rem;
+			margin-top: 3.0rem;
 		}
 
 			#header > *:before {
@@ -1325,7 +1343,7 @@ input, select, textarea {
 			}
 
 		#header .content {
-			border-style: solid;
+			border-style: dashed;
 			border-color:#ffdede;
 			;
 			border-top-width: 25px;
@@ -1342,7 +1360,7 @@ input, select, textarea {
 				-webkit-transition-delay: 0.25s;
 				-ms-transition-delay: 0.25s;
 				transition-delay: 0.25s;
-				padding: 3rem 2rem;
+				padding: 0rem 0rem;
 				max-height: 40rem;
 				overflow: hidden;
 			}
@@ -1667,9 +1685,9 @@ input, select, textarea {
 
 		#footer .copyright {
 			letter-spacing: 0.2rem;
-			font-size: 0.6rem;
+			font-size: 0.9rem;
 			opacity: 0.75;
-			margin-bottom: 0;
+		
 			text-transform: uppercase;
 		}
 
@@ -1699,6 +1717,6 @@ input, select, textarea {
 			border-radius: 2000px;
 			padding: 9px;
 			text-align: center;
-			width: 308px; /* Ajusta el ancho según sea necesario */
+			width:508px; /* Ajusta el ancho según sea necesario */
 			margin: 0 auto; /* Centra horizontalmente */
 		}
